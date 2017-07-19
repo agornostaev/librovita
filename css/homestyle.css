@@ -5,6 +5,7 @@
 
 body {
     background: url(../img/lifebg2.jpg) no-repeat center center fixed;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,13 +18,15 @@ body {
 	padding: 20px 30px;
 	width: 600px;
 	min-height: 200px;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.3);
 	border: solid 2px silver;
 	border-radius: 5px;
 	display: block;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 1em;
 	color: white;
+	
 }
 
 .description {
@@ -56,9 +59,9 @@ img.logo {
 
 input[type="text"] {
 	width: 240px;
-	margin: 7px 0px 7px 0;
+	margin: 10px 0px 10px 0;
 	padding: 5px;
-	border: 1px solid #68a4d9;
+	border: 1px solid silver;
 	border-radius: 3px;
 	-webkit-border-radius: 3px; 
    	-moz-border-radius: 3px;
